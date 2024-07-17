@@ -1,0 +1,300 @@
+* {
+    text-decoration: none !important;
+}
+
+/* body{
+    background-color: black;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+}
+header nav {
+   margin-top: 30px;
+}
+.navbar-nav a {
+
+    font-family: "Montserrat";
+}
+
+.navbar-nav a:hover{
+    color: #d9aa00 !important;
+    
+}
+
+header nav .container-fluid {
+    width: 85%;
+}
+
+.boxCard {
+    width: 84.1rem;
+}
+
+.headContainer ul li a:hover {
+    color: #ffc800 !important;
+}
+
+.sec1 {
+    background-image: url(/assets/image/header-bg\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 800px;
+
+
+}
+
+.boxCards {
+    width: 81.1rem;
+}
+
+.sec1 div span {
+    font-size: 85px !important;
+}
+
+.sec1 div i {
+    font-size: 40px;
+}
+
+.sec1 div button:hover {
+    background-color: #d9aa00 !important;
+
+}
+
+/* .sec2 .sec2top h3{
+    font-family: "Montserrat" !important;
+}  */
+.sec2 .sec2top i {
+    color: #6c757d !important;
+
+}
+
+.sec2Bottom div i {
+    font-size: 65px;
+    border-radius: 50%;
+
+}
+
+
+.sec3TopImg {
+    width: 400px;
+
+    cursor: pointer;
+
+}
+
+
+.sec3TopImg img {
+    max-width: 100%;
+}
+.sec3TopImg .plus .insidePlus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 80px;
+    opacity: 1 ;
+ 
+    
+}
+.sec3TopImg .plus{
+  
+    display: none;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: 2s
+
+}
+.sec3TopImg:hover{  
+   
+    .plus{
+         
+    display: block;
+}
+}
+
+.sec3 .row div .sec3RowItems .sec3Texts i {
+    color: #6c757d !important;
+}
+
+/* .sec4Container ul{
+    position: relative;
+}
+.sec4Container ul::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 660px;
+    z-index: -1;
+    width: 2px;
+    margin-left: -1.5px;
+    display: flex;
+    justify-content: center;
+    background-color: #e9ecef;
+} */
+
+.sec4Img , .sec4imgs{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.sec4Img img, .sec4imgs img {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sec4Img:nth-child(1)::before {
+    content: "" !important;
+}
+
+.sec4Img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   
+    width: 2px;
+    background-color: red;
+    top: -100%;
+}
+
+
+.sec4Container ul li div p {
+    color: #6c757d !important;
+}
+
+/* .sec4 ul li div h4, .tek{width: 100%;
+        text-align: end;
+    } */
+
+.sec4Container ul li .sec4Img img {
+    /* width: 150px; */
+    border: solid #e9ecef 6px;
+
+}
+
+.sec4Container ul li div h4 {
+    font-weight: 700;
+}
+
+/* .sec4TextDiv{
+        width: 50%;
+    } */
+.sec4Container ul li .sec4TextDiv {
+
+    width: 33%;
+}
+
+.sec4Container ul li { display: flex;
+    
+
+}
+
+
+.sec4Container ul li div .sec4Story {
+    width: 150px !important;
+    height: 150px;
+    font-size: 20px;
+
+
+}
+.sec5Bottom .d-flex .sec5Img img{
+    border: rgba(0, 0, 0, 0.1) solid 6px;
+}
+
+.sec6 {
+    height: 350px;
+}
+.sec6 .container .row  {
+
+   width: 100%;
+
+}
+.sec6Items{
+    height: 50px;
+}
+.sec7{
+    height: 760px;
+   background-image: url(/assets/image/map-image.png);
+   background-size: cover;
+   background-position: center;
+   background-color:black ;
+   width: 100%;
+
+ 
+}
+.sec7 .sec7Head h2{color: white; }
+.sec7 .sec7Head i{
+    color: #6c757d !important;
+   }
+   .sec7 form .row div .formGroup .invalid-feedback{
+    display: block;
+    
+   }
+   form div{ width: 95%;}
+ 
+   footer{
+    height: 100px;
+   }
+   footer .row{ width: 90%;
+font-family: "roboto";
+}
+
+
+@media(max-width:992px){
+    .sec1 div span{font-size: 50px !important;
+    text-align: center;}
+    .sec1 div i{text-align: center;}
+    .sec1 div {justify-content: end;}
+    .sec4TextDiv{order: 2;}
+    .sec4Container ul {
+        align-items: start;
+    }
+
+    .sec4Container ul li {justify-content: start !important;
+        width: 100% !important;
+      
+       
+
+    }
+    .sec2Bottom div i{
+        font-size: medium;
+    }
+
+    .sec4Container{
+        width: 100%;
+    }
+    
+    .sec3TopImg{
+        width: 100% !important;
+    }
+    form div{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .row div a{
+        
+    }
+    
+
+}
+
+@media(max-width:600px){}
